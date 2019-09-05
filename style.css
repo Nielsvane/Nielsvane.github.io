@@ -1,0 +1,123 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("https://image.freepik.com/vector-gratis/fondo-formas-poligonales-azules_1053-434.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    justify-content: center;
+    display: flex;;
+}
+
+nav a {
+    line-height: 60px;
+    color: #204156;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding: 0px 10px
+}
+
+nav ul {
+    display: inline;
+}
+
+.page-title {
+    text-align: center;
+    align-content: center;
+}
+
+.page-description {
+    text-align: left;
+    display: inline-block;
+    margin-right: 50%;
+    margin-top: 5%;
+}
+
+.button a {
+    display: inline;
+    padding: 8px;
+    color: black;
+    border: 1px solid aliceblue;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    justify-content: center;
+    border-radius: 10px;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    margin: 20px;
+}
+
+table {
+    table-layout: fixed;
+    width: 50%;
+    border: 3px solid gray; 
+    margin-left: 25%;
+}
+
+th, td {
+    padding: 3px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.blok {
+    background-color: rgb(158, 188, 243)
+}
+
+#NBSA {
+    border: 2px solid rgb(252, 56, 56);
+}
+
+#failed {
+    background-color: rgb(250, 57, 57);
+    opacity: 0.5;
+}
+
+#progress {
+    background-color: rgb(233, 120, 54);
+    opacity: 0.5;
+}
+
+#complete {
+    background-color: rgb(116, 226, 116);
+}
+
+.studiewijzer {
+    float: left;
+    padding-left: 100px;
+}
+
+.studiewijzer a {
+    display: block;
+}
+
+.eigenschappen {
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+
+.hz-logo {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+}
+
+.figure {
+    position: absolute;
+    right: 5%;
+    top: 24%;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
