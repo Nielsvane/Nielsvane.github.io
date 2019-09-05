@@ -79,17 +79,17 @@ ul {
     border: 2px solid rgb(252, 56, 56);
 }
 
-#failed {
+.failed {
     background-color: rgb(250, 57, 57);
     opacity: 0.5;
 }
 
-#progress {
+.progress {
     background-color: rgb(233, 120, 54);
     opacity: 0.5;
 }
 
-#complete {
+.complete {
     background-color: rgb(116, 226, 116);
 }
 
@@ -120,4 +120,9 @@ ul {
     top: 24%;
     border: 1px solid grey;
     border-radius: 10px;
+}
+
+.profile-figure {
+    right: 40%;
+    top: 30%;
 }
